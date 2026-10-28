@@ -3,6 +3,7 @@ body {
   justify-content: center;
   margin-top:3em;
   background-color: #372D4D;
+  perspective: 1000px;
 }
 
 img {width: 150px;}
