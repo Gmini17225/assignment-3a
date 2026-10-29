@@ -10,8 +10,19 @@ h1 {
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
+  animation-name: typing;
+  animation-duration: 3s;
+  animation-timing-function: steps(14);
 }
 
+@keyframes typing {
+  0% {
+    width:0px;
+  }
+  100% {
+    wdith:100%;
+  }
+}
 
 @keyframes blinking {
   0%, 100% {
