@@ -28,37 +28,38 @@ h2 {
 
 span {
   animation: flipUp 1s cubic-bezier(0.34, 1.56, 0.64, 1) both,
-             flipDown 1s cubic-bezier(0.34, 1.56, 0.64, 1) 2.75s forwards;
+             flipDown 1s cubic-bezier(0.34, 1.56, 0.64, 1) 2.75s forwards,
+             fadeOut 1s 5s ease-out forwards;
   transform-origin: 50% 70%;
 }
 
 span:nth-child(2) {
   margin-right:0.15em;
-  animation-delay: 0.2s, 2.95s;
+  animation-delay: 0.2s, 2.95s, 5.2s;
 }
 
 span:nth-child(3) {
   margin-right:0.15em;
-  animation-delay: 0.4s, 3.15s;
+  animation-delay: 0.4s, 3.15s, 5.4s;
 }
 
 span:nth-child(4) {
-  animation-delay: 0.6s, 3.35s;
+  animation-delay: 0.6s, 3.35s, 5.6s;
 }
 
 span:nth-child(5) {
-  animation-delay:0.8s, 3.55s;
+  animation-delay:0.8s, 3.55s, 5.8s;
 }
 
 span:nth-child(6) {
-  animation-delay:1s, 3.75s;
+  animation-delay:1s, 3.75s, 6s;
 }
 
 span:nth-child(7) {
   animation: flipUp 1s 1.2s cubic-bezier(0.34, 1.56, 0.64, 1)  both, 
             flipDown 1s 3.95s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
             flick .95s 4.95s linear forwards,
-            fadeOut 1s 5.9s ease-out forwards;
+            fadeOut 1s 6.2s ease-out forwards;
 }
 
 
