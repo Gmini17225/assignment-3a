@@ -1,14 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap");
 
-@keyframes scaleIn {
+@keyframes spinIn {
   0% {
-    scale: 0.2;
+    transform: rotate(-360deg) scale(0.2);
+    opacity: 0;
   }
+
+  70% {
+    transform: rotate(15deg) scale(1.1);
+    opacity: 1;
+  }
+
   85% {
-    scale: 1.1;
+    transform: rotate(-5deg) scale(0.95);
   }
+
   100% {
-    scale: 1;
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
   }
 }
 
@@ -18,9 +27,7 @@ h2 {
   color: #DCF2B0;
   text-shadow: 3px 3px 0px #59C3C3;
 
-  animation-name: scaleIn;
-  animation-duration: 2s;
-  animation-fill-mode: backwards;
+  animation: spinIn 2s ease-out both;
 }
 
 .wrap {
