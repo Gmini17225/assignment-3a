@@ -1,4 +1,6 @@
 #heartfill {
+  animation: beat .8s linear,
+  fade 0.25s reverse both;
 }
 
 #outline {
