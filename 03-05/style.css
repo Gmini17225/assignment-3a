@@ -57,7 +57,8 @@ span:nth-child(6) {
 span:nth-child(7) {
   animation: flipUp 1s 1.2s cubic-bezier(0.34, 1.56, 0.64, 1)  both, 
             flipDown 1s 3.95s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
-            flick .95s 4.95s linear forwards;
+            flick .95s 4.95s linear forwards,
+            fadeOut 1s 5.9s ease-out forwards;
 }
 
 
